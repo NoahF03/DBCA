@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24144E95-F20D-538E-A3C0-24959E7EF68C" name="Kennel">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:23:39 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KennelID" id="85003C69-3C0B-63C1-2867-D58ECE4A086D">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:23:45 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Available" id="6750A527-AB8B-9919-2C10-074EEF18AFAB">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:24:02 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PetID" id="B9C218B3-3A30-2A60-898C-ED9592CCE36A">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:25:25 UTC</createdTime>
+<generatorID>C5C6FE5A-3F3C-659A-FEF0-D247C769D1A8</generatorID>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<referedAttribute>C5394F00-1900-F0DA-E185-012F2091702B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmployeeID" id="A6CF5B57-80B0-F746-FEB4-696161678277">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:26:00 UTC</createdTime>
+<generatorID>BC81B016-B59C-9EB9-8F6A-1F9239759A14</generatorID>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<referedAttribute>5D20C16D-1C43-1C87-3515-20CAB0393375</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F264E56B-5361-C589-0CBE-998E5A086C49" name="Kennel PK">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:23:56 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>85003C69-3C0B-63C1-2867-D58ECE4A086D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

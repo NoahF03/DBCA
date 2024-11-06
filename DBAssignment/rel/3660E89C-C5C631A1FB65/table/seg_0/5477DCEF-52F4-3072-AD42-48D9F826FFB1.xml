@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5477DCEF-52F4-3072-AD42-48D9F826FFB1" name="Product">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:28:08 UTC</createdTime>
+<generatorID>1042E44C-4FC0-3A0E-31D4-80CF5266886E</generatorID>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProductID" id="1DA052E7-43F7-0F50-4088-75C740B5A3A7">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:28:08 UTC</createdTime>
+<generatorID>0129875A-8CD4-4A70-236F-0910641B8DDB</generatorID>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProuductName" id="A67DC402-E80D-74AA-1E43-A6861D5BE632">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:28:08 UTC</createdTime>
+<generatorID>11E76EEE-EBDA-D6B4-3C4C-1A3120167C8B</generatorID>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Category" id="3214151A-7CFC-D409-6A7E-60BF7419C78A">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:28:08 UTC</createdTime>
+<generatorID>319ECC3A-29F7-E150-8887-2094575DC890</generatorID>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="F89F419E-81B9-4EA9-A068-33162041D263">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:28:08 UTC</createdTime>
+<generatorID>F38C1E84-BEE2-E7E4-81B3-9D2A4603A9A0</generatorID>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QuantityInStock" id="D1661736-53AF-FD45-E552-E1A9089DEBDC">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:28:08 UTC</createdTime>
+<generatorID>387FD291-9F93-046A-3BD4-D92ACE419834</generatorID>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Supplier_SupplierID" id="76E1DA62-0964-21C7-C826-33B58110EA17">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:28:08 UTC</createdTime>
+<generatorID>5A70AA0B-42E5-3843-97A0-E44C19AE2CA3</generatorID>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB0ABC06-6180-CBDE-3056-0ABD6524D90D" referredColumn="3DCF909B-1A25-5196-3F0B-B7A6E72E7BC8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="426CA513-1870-767D-33C9-B6D9FE43994D" name="Product_PK">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:28:08 UTC</createdTime>
+<generatorID>A0779ABF-2A7C-A030-CDF7-E7B4CB7C1335</generatorID>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DA052E7-43F7-0F50-4088-75C740B5A3A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D81A4AF-364C-BD6F-F709-2F8ADD032121" name="Product_Supplier_FK">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:28:08 UTC</createdTime>
+<generatorID>FD901F95-5B48-721E-6DF7-2BA336322B09</generatorID>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76E1DA62-0964-21C7-C826-33B58110EA17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1042E44C-4FC0-3A0E-31D4-80CF5266886E" name="Product">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:38:34 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ProductID" id="0129875A-8CD4-4A70-236F-0910641B8DDB">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:38:40 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProuductName" id="11E76EEE-EBDA-D6B4-3C4C-1A3120167C8B">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:38:52 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Category" id="319ECC3A-29F7-E150-8887-2094575DC890">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:39:08 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="F38C1E84-BEE2-E7E4-81B3-9D2A4603A9A0">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:39:28 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QuantityInStock" id="387FD291-9F93-046A-3BD4-D92ACE419834">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:39:41 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SupplierID" id="5A70AA0B-42E5-3843-97A0-E44C19AE2CA3">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 16:06:37 UTC</createdTime>
+<generatorID>FD901F95-5B48-721E-6DF7-2BA336322B09</generatorID>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<referedAttribute>E11F23D3-B587-56B2-4EBA-4172C6395331</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A0779ABF-2A7C-A030-CDF7-E7B4CB7C1335" name="Product PK">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:38:50 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0129875A-8CD4-4A70-236F-0910641B8DDB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

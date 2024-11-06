@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5FD51730-014F-251C-D706-8B0955982BC7" name="Supplier">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:40:45 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SupplierID" id="E11F23D3-B587-56B2-4EBA-4172C6395331">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:53:34 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SupplierName" id="EF15C4B9-B295-8291-4E73-458C700763A2">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:53:47 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone" id="0C974439-6063-063A-09EF-E5F3BF025A28">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:54:02 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="82B00660-5C27-8F91-4AF0-B41BC2128AFD">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:54:43 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="090F81D8-9428-89BD-EBF7-C2CFC4DA1AC7">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:54:56 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1E934C9F-EDE7-CE24-6BE7-E94AE60DEF21" name="Supplier PK">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:53:45 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E11F23D3-B587-56B2-4EBA-4172C6395331</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="590BEC1D-8520-A1BA-478E-6F623EE4DE19" name="Kennel">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:28:08 UTC</createdTime>
+<generatorID>24144E95-F20D-538E-A3C0-24959E7EF68C</generatorID>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KennelID" id="D14849DA-1A52-EE1A-C046-7A552B9DC502">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:28:08 UTC</createdTime>
+<generatorID>85003C69-3C0B-63C1-2867-D58ECE4A086D</generatorID>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Available" id="443B93DE-2A3B-2A46-FD1F-458A45CD1E80">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:28:08 UTC</createdTime>
+<generatorID>6750A527-AB8B-9919-2C10-074EEF18AFAB</generatorID>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pet_PetID" id="CF449478-F50B-F5D9-93FA-7FA2F9F0D6E8">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:28:08 UTC</createdTime>
+<generatorID>B9C218B3-3A30-2A60-898C-ED9592CCE36A</generatorID>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57D890D3-56B8-58B1-12C9-624A4A6B911C" referredColumn="4CDB5056-D7C5-7630-7B8B-4573126A6A73"/>
+</associations>
+</Column>
+<Column name="Employee_EmployeeID" id="E48FC90F-6D23-330D-069C-5F909B067B95">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:28:08 UTC</createdTime>
+<generatorID>A6CF5B57-80B0-F746-FEB4-696161678277</generatorID>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85C16740-4454-CBAC-A313-7EBE115E426D" referredColumn="099AC364-2C08-AC43-52AE-C671A8993C97"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB3D7CAB-7843-74B0-7578-9DF27B56114B" name="Kennel_PK">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:28:08 UTC</createdTime>
+<generatorID>F264E56B-5361-C589-0CBE-998E5A086C49</generatorID>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D14849DA-1A52-EE1A-C046-7A552B9DC502"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B82D3A3B-3D32-17AC-81DC-0462219FA8ED" name="Kennel_Employee_FK">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:28:08 UTC</createdTime>
+<generatorID>BC81B016-B59C-9EB9-8F6A-1F9239759A14</generatorID>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E48FC90F-6D23-330D-069C-5F909B067B95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C70E9822-9753-F1BC-70E9-33DE167209E8" name="Kennel_Pet_FK">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-06 11:28:08 UTC</createdTime>
+<generatorID>C5C6FE5A-3F3C-659A-FEF0-D247C769D1A8</generatorID>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF449478-F50B-F5D9-93FA-7FA2F9F0D6E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

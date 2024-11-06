@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="69037581-1AF5-4CEC-8A9B-41F9E2A1F503" name="Employee">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:33:00 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EmployeeID" id="5D20C16D-1C43-1C87-3515-20CAB0393375">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:33:06 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="39CBB20E-553A-9AD4-29C5-F58949A3526B">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:33:23 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastName" id="A1D159D8-E2B8-8235-413D-1E2F2D12933E">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:33:36 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone" id="DE4BEEEB-21E5-567E-03F7-BEFF69A09E63">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:33:50 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="43F21E88-F55C-F6FF-BD26-24F2B5151E15">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:34:05 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JobTitle" id="01E6E3D9-10EB-457C-08EC-5FFAAC23B13F">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:34:19 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HireDate" id="A7B7EFC5-4A77-DF1F-E3C8-5622A9253EF9">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:34:34 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Salary" id="DC625A9B-9D0D-4546-CDAD-9C5CBB1F8322">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:34:46 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="09DD37E1-3669-E9CC-A009-82442C4AB173" name="Employee PK">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:33:17 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<engineerTo>
+<item key="3660E89C-7457-DADE-37C7-C5C631A1FB65" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5D20C16D-1C43-1C87-3515-20CAB0393375</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

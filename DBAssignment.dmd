@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DBAssignment" id="E078E5B1-AA7E-1F6D-81D1-FA5C755AC713" version="3.5">
+<createdBy>Noahf</createdBy>
+<createdTime>2024-11-05 15:21:12 UTC</createdTime>
+<ownerDesignName>DBAssignment</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E078E5B1-AA7E-1F6D-81D1-FA5C755AC713</designId>
+</OSDM_Design>
